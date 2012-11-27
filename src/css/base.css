@@ -1,0 +1,83 @@
+/*
+ * Global
+ */
+
+body {
+	font: 16px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	padding: 0 0.625em;
+	position: relative;
+	color: #333333;
+	-webkit-text-size-adjust: none;
+}
+
+textarea[contenteditable] {
+	-webkit-appearance: none;
+}
+
+ul,
+ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+img,
+object,
+video {
+	max-width: 100%;
+    vertical-align: middle;
+}
+
+input[type=search] {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+::-webkit-input-placeholder {
+	color: #808080;
+}
+:-moz-placeholder {
+    color: #808080;
+}
+
+/*
+ * Misc
+ */
+
+hr {
+	border: none;
+	border-bottom: 1px dashed #CCC;
+}
+
+/*
+ * Helpers
+ */
+
+/*  do not select text  */
+.user-no-select {
+	-o-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.hide {
+	display: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}

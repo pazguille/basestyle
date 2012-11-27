@@ -1,0 +1,93 @@
+/*
+* Tables
+*/
+
+.datagrid {
+	width: 100%;
+	border: 1px solid #CECECE;
+	text-align: left;
+}
+
+.datagrid caption {
+	text-align: left;
+	font-weight: normal;
+	margin: 10px 0;
+	font-size: 18px;
+}
+
+.datagrid thead tr {
+	border-top: 1px solid #CECECE;
+}
+
+.datagrid th {
+	background-color: #FAFAFA;
+	background-image: -webkit-linear-gradient(#FAFAFA, #EAEAEA);
+	background-image: -moz-linear-gradient(#FAFAFA, #EAEAEA);
+	background-image: -o-linear-gradient(#FAFAFA, #EAEAEA);
+	background-image: linear-gradient(#FAFAFA, #EAEAEA);
+	border-bottom: 1px solid #CECECE;
+	border-left: 1px solid #CECECE;
+	padding: 0 10px;
+	text-align: left;
+	text-shadow: 0 1px 0 #FFFFFF;
+	vertical-align: middle;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+
+.datagrid th.datagrid-selected {
+	background: #dedede;
+	position: relative;
+	text-shadow: none;
+}
+
+
+.datagrid th.datagrid-selected .datagrid-asc,
+.datagrid th.datagrid-selected .datagrid-desc {
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	text-indent: -9999px;
+}
+
+.datagrid th.datagrid-selected .datagrid-asc:after,
+.datagrid th.datagrid-selected .datagrid-desc:after {
+	content: " ";
+	position: absolute;
+	right: 8px;
+	top: 1em;
+	width: 0;
+	height: 0;
+	border: solid transparent;
+	border-width: 4px;
+	margin-left: -4px;
+}
+
+.datagrid th.datagrid-selected .datagrid-asc:after {
+	border-top-color: #333;
+}
+
+.datagrid th.datagrid-selected .datagrid-desc:after {
+	border-bottom-color: #333;
+	top: 7px;
+}
+
+.datagrid th:first-child {
+	border-left: none;
+}
+
+.datagrid tr {
+	border-top: 1px solid #EEE;
+}
+
+.datagrid tr.datagrid-selected {
+	background-color: #FFC;
+}
+
+.datagrid td {
+	height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+}

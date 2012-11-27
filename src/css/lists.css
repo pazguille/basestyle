@@ -1,0 +1,203 @@
+/*
+ * Lists
+ */
+
+.list {
+	margin-bottom:10px;
+}
+
+.list li {
+	margin-left: 10px;
+	padding: 3px 0;
+	line-height: 18px;
+}
+
+ul.list li {
+	list-style: disc inside;
+}
+
+ol.list li {
+	list-style: decimal inside;
+}
+
+dl.list {
+	margin-bottom: 18px;
+}
+
+dl.list dt,
+dl.list dd {
+	line-height: 18px;
+}
+
+dl.list dt {
+	font-weight: bold;
+}
+
+dl.list dd {
+	margin: 5px 0 10px 10px;
+}
+
+/*
+* List Menu
+*/
+.list-menu {
+	background-color: #f4f4f4;
+	margin: 0 0 1.5em;
+	border: 1px solid #EEEEEE;
+}
+
+.list-menu li {
+	border-bottom: 1px solid #EEEEEE;
+	min-height: 3em;
+	line-height: 3em;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	position: relative;
+}
+
+.list-menu li:last-child {
+    border-bottom: none;
+}
+
+.list-menu li,
+.list-menu li > a {
+	text-indent: 10px;
+}
+
+.list-menu li > a {
+	padding-right: 3em;
+	display: block;
+	overflow: hidden;
+}
+
+.list-menu li > a:active {
+	background: #e9e9e9;
+}
+
+.list-menu .list-icon:after {
+	content: "\f054";
+	line-height: 1em;
+	margin-top: -0.45em;
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	font-size: 1em;
+}
+
+.list-menu [class*="icon"]:before {
+	margin-right: 0.4em;
+}
+
+@media all and (min-width: 34em) {
+	.list-menu {
+		width: 35%
+	}
+}
+
+@media all and (min-width: 54em) {
+	.list-menu {
+		width: 25%;
+	}
+}
+
+
+/*
+ * List Gallery
+ */
+.list-gallery {
+	margin: 0 0 1.5em;
+}
+
+.list-gallery li {
+	border-bottom: 1px solid #EEEEEE;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	position: relative;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.list-gallery li:last-child {
+    border-bottom: none;
+}
+
+.list-gallery li > a {
+	display: block;
+	overflow: hidden;
+	padding: 0.625em 0;
+}
+
+.list-gallery li > a:active {
+	background: #e9e9e9;
+}
+
+.list-gallery li > a:hover {
+	text-decoration: none;
+}
+
+.list-gallery li > a * {
+	color: #333333;
+}
+
+.list-gallery .list-icon:after {
+	content: "\f054";
+	line-height: 1em;
+	margin-top: -0.45em;
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	font-size: 1em;
+}
+
+.list-img {
+	vertical-align: middle;
+	padding-right: 0.625em;
+	float: left;
+	display: block;
+	width: 20%;
+}
+
+.list-text {
+	vertical-align: middle;
+}
+
+@media all and (min-width: 34em) {
+	.list-gallery {
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.list-gallery li {
+		display: block;
+		width: 50%;
+		float: left;
+		border: none;
+		padding: 0.5em;
+	}
+
+	.list-gallery li > a {
+		display: block;
+		padding: 0;
+	}
+
+	.list-img {
+		float: none;
+	}
+
+	.list-img,
+	.list-text,
+	.list-gallery li > a {
+		display: block;
+		width: auto;
+		padding: 0;
+	}
+
+	.list-text {
+		padding: 0.5em 0;
+	}
+}
+
+@media all and (min-width: 54em) {
+	.list-gallery li {
+		width: 33.33333333%;
+	}
+}

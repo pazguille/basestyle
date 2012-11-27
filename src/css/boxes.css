@@ -1,0 +1,62 @@
+/*
+* Boxes
+*/
+[class*="box"] h1,
+[class*="box"] h2,
+[class*="box"] h3,
+[class*="box"] h4
+[class*="box"] h5,
+[class*="box"] h6 {
+	margin-top: 0;
+}
+
+[class*="box"] {
+	padding: 0.625em;
+	margin: 0 0 1em;
+}
+
+.box,
+.box-leading,
+.box-message {
+	border: 1px solid #EDEDED;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.box-leading {
+	background: #F4F4F4;
+}
+
+/* Message boxes */
+.box-message:before {
+	font-family: icons;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	vertical-align: middle;
+	margin-right: 0.2em;
+	line-height: 1em;
+	font-size: 1.5em;
+}
+
+.box-message {
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	position: relative;
+	padding-left: 35px;
+}
+
+.box-message:before {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.box-message,
+.box-message:before {
+	background-color: #F7F7F7;
+	color: #666666;
+}
+
+.box-message:before {
+	content: "\f059";
+	color: #999999;
+}
