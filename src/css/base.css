@@ -6,7 +6,6 @@ body {
 	font: 16px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0 auto;
 	padding: 0 0.625em;
-	position: relative;
 	color: #333333;
 	-webkit-text-size-adjust: none;
 }
@@ -17,7 +16,7 @@ textarea[contenteditable] {
 
 ul,
 ol {
-	list-style: none;
+	list-style-position: inside;
 	margin: 0;
 	padding: 0;
 }
@@ -29,25 +28,13 @@ video {
     vertical-align: middle;
 }
 
-input[type=search] {
-	-webkit-appearance: none;
-	border-radius: 0;
-}
-
-::-webkit-input-placeholder {
-	color: #808080;
-}
-:-moz-placeholder {
-    color: #808080;
-}
-
 /*
  * Misc
  */
 
 hr {
 	border: none;
-	border-bottom: 1px dashed #CCC;
+	border-bottom: 1px solid #CCC;
 }
 
 /*
@@ -61,6 +48,12 @@ hr {
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	user-select: none;
+}
+
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .hide {

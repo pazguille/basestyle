@@ -1,38 +1,38 @@
 /*
- * Pagination
+ * pager
  */
-.pagination {
+.pager {
 	margin: 15px 0;
 	text-align: center;
 }
 
-.pagination li {
+.pager li {
 	display: inline-block;
 }
 
-.pagination a,
-.pagination-current {
+.pager a,
+.pager-current {
 	font-size: 1.13em;
 	padding: 5px 10px;
 	border: 1px solid #EEE;
 	background-color: #FFF;
 }
 
-.pagination a {
+.pager a {
 	background-color: #FFF;
 }
 
-.pagination a:hover {
+.pager a:hover {
 	background-color: #F2F2F2;
 	text-decoration: none;
 }
 
-.pagination a:active {
+.pager a:active {
 	background-color: #CCCCCC;
 }
 
-.pagination-current,
-.pagination a:active {
+.pager-current,
+.pager a:active {
 	border: 1px solid #EEE;
 	background-color: #F2F2F2;
 	color: #0637b3;
