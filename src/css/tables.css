@@ -1,18 +1,13 @@
-/*
-* Tables
-*/
-
+/**
+ * Tables
+ */
 table {
 	width: 100%;
 	border: 1px solid #CECECE;
-	text-align: left;
 }
 
 table caption {
-	text-align: left;
-	font-weight: normal;
 	margin: 10px 0;
-	font-size: 18px;
 }
 
 table thead tr {
@@ -35,55 +30,12 @@ table th {
 	line-height: 2em;
 }
 
-
-table thtable-selected {
-	background: #dedede;
-	position: relative;
-	text-shadow: none;
-}
-
-
-table thtable-selected table-asc,
-table thtable-selected table-desc {
-	display: block;
-	position: absolute;
-	right: 10px;
-	top: 0px;
-	text-indent: -9999px;
-}
-
-table thtable-selected table-asc:after,
-table thtable-selected table-desc:after {
-	content: " ";
-	position: absolute;
-	right: 8px;
-	top: 1em;
-	width: 0;
-	height: 0;
-	border: solid transparent;
-	border-width: 4px;
-	margin-left: -4px;
-}
-
-table thtable-selected table-asc:after {
-	border-top-color: #333;
-}
-
-table thtable-selected table-desc:after {
-	border-bottom-color: #333;
-	top: 7px;
-}
-
 table th:first-child {
 	border-left: none;
 }
 
 table tr {
 	border-top: 1px solid #EEE;
-}
-
-table trtable-selected {
-	background-color: #FFC;
 }
 
 table td {

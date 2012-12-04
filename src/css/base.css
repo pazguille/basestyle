@@ -1,4 +1,4 @@
-/*
+/**
  * Global
  */
 
@@ -28,20 +28,14 @@ video {
     vertical-align: middle;
 }
 
-/*
- * Misc
- */
-
 hr {
 	border: none;
 	border-bottom: 1px solid #CCC;
 }
 
-/*
+/**
  * Helpers
  */
-
-/*  do not select text  */
 .user-no-select {
 	-o-user-select: none;
 	-ms-user-select: none;
@@ -64,7 +58,7 @@ hr {
 	visibility: hidden;
 }
 
-.visuallyhidden {
+.invisible {
 	border: 0;
 	clip: rect(0 0 0 0);
 	height: 1px;
