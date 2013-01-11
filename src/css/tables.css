@@ -3,7 +3,7 @@
  */
 table {
 	width: 100%;
-	border: 1px solid #CECECE;
+	border: 1px solid #EEE;
 }
 
 table caption {
@@ -11,17 +11,13 @@ table caption {
 }
 
 table thead tr {
-	border-top: 1px solid #CECECE;
+	border-top: 1px solid #EEE;
 }
 
 table th {
 	background-color: #FAFAFA;
-	background-image: -webkit-linear-gradient(#FAFAFA, #EAEAEA);
-	background-image: -moz-linear-gradient(#FAFAFA, #EAEAEA);
-	background-image: -o-linear-gradient(#FAFAFA, #EAEAEA);
-	background-image: linear-gradient(#FAFAFA, #EAEAEA);
-	border-bottom: 1px solid #CECECE;
-	border-left: 1px solid #CECECE;
+	border-bottom: 1px solid #EEE;
+	border-left: 1px solid #EEE;
 	padding: 0 10px;
 	text-align: left;
 	text-shadow: 0 1px 0 #FFFFFF;
