@@ -28,13 +28,12 @@
 }
 
 .pager a:active {
-	background-color: #CCCCCC;
+	background-color: #e9e9e9;
 }
 
-.pager-current,
-.pager a:active {
+.pager-current {
 	border: 1px solid #EEE;
-	background-color: #F2F2F2;
+	background-color: #FAFAFA;
 	color: #0637b3;
 	font-weight: bold;
 }
