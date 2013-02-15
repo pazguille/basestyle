@@ -1,0 +1,41 @@
+/**
+ * Tables
+ */
+table {
+	width: 100%;
+	border: 1px solid #EEE;
+}
+
+table caption {
+	margin: 10px 0;
+}
+
+table thead tr {
+	border-top: 1px solid #EEE;
+}
+
+table th {
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #EEE;
+	border-left: 1px solid #EEE;
+	padding: 0 10px;
+	text-align: left;
+	text-shadow: 0 1px 0 #FFFFFF;
+	vertical-align: middle;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+table th:first-child {
+	border-left: none;
+}
+
+table tr {
+	border-top: 1px solid #EEE;
+}
+
+table td {
+	height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+}

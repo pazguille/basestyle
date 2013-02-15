@@ -1,0 +1,58 @@
+[class^="grid-"] {
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.grid-6 {
+    width: 100%;
+}
+
+.grid-5 {
+    width: 83.33%;
+}
+
+.grid-4 {
+    width: 66.66%;
+}
+
+.grid-3 {
+    width: 50%;
+}
+
+.grid-2 {
+    width: 33.333%;
+}
+
+.grid-1 {
+    width: 16.666%;
+}
+
+/* Gutters: You can use these on your inner elements */
+
+[class^="grid-"] .rightcolumn,
+[class^="grid-"] .centercolumn {
+    margin-left: 5px;
+}
+
+[class^="grid-"] .leftcolumn,
+[class^="grid-"] .centercolumn {
+    margin-right: 5px;
+}
+
+/* Mobile */
+@media all and (max-width: 480px) {
+
+    [class^="grid"] {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+    }
+
+    [class^="grid-"] .rightcolumn,
+    [class^="grid-"] .leftcolumn,
+    [class^="grid-"] .centercolumn {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
