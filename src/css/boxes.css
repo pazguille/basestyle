@@ -22,33 +22,11 @@
 	border-radius: 5px;
 }
 
-.box-message:before {
-	font-family: icons;
-	font-weight: normal;
-	font-style: normal;
-	text-decoration: none;
-	vertical-align: middle;
-	margin-right: 0.2em;
-	line-height: 1em;
-	font-size: 1.5em;
-	position: absolute;
-	top: 10px;
-	left: 10px;
-}
-
 .box-message {
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	position: relative;
-	padding-left: 35px;
 	color: #666666;
 }
 
-.box-message,
-.box-message:before {
+.box-message {
 	background: #FAFAFA;
-}
-
-.box-message:before {
-	content: "\f059";
-	color: #999999;
 }
